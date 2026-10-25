@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111110">
+  <meta name="description" content="Вы боитесь? Два вопроса перед костюмированной Хэллоуин Вечеринкой 31.10 в 19:00.">
+  <title>После полуночи — приглашение на Хеллоуин</title>
+  <link rel="icon" href="assets/star.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="poster">
+    <header class="masthead">
+      <a class="wordmark" href="./" aria-label="После полуночи — начать сначала">ПОСЛЕ <span>✦</span> ПОЛУНОЧИ</a>
+      <span class="masthead-note">HALLOWEEN · ПРИГЛАШЕНИЕ ДЛЯ СВОИХ</span>
+      <button class="motion-toggle" type="button" aria-pressed="true"><span class="status-dot"></span><span class="motion-label">Анимация вкл.</span></button>
+    </header>
+
+    <main class="stage" aria-label="Приглашение на Хеллоуин">
+      <div class="ornaments" aria-hidden="true">
+        <svg class="web web-right" viewBox="0 0 300 300" fill="none"><g stroke="currentColor" stroke-width=".8"><path d="M300 0 0 300M300 0 0 100M300 0 100 300M300 0 200 300M300 0 0 200M300 0 300 300M300 0H0"/><path d="M253 0Q252 22 256 45Q235 40 220 53Q205 45 190 38Q188 21 180 0M300 52Q275 48 256 45M300 103Q258 97 220 88Q203 73 190 73Q163 61 146 51Q143 25 128 0M300 161Q245 149 192 139Q174 119 153 115Q124 92 101 82Q93 42 66 0M300 224Q235 208 155 186Q132 155 107 152Q76 127 54 113Q42 58 0 30M300 285Q208 265 119 234Q88 202 55 199Q21 173 0 159"/></g></svg>
+        <div class="deco mouth" data-pulse><div class="cutout sprite-mouth"></div></div>
+        <div class="deco candle" data-pulse><div class="cutout sprite-candle"></div></div>
+        <div class="deco cat" data-pulse><div class="cutout sprite-cat"></div></div>
+        <div class="deco bat bat-one" data-pulse><div class="cutout sprite-bat"></div></div>
+        <div class="deco bat bat-two" data-pulse><div class="cutout sprite-bat"></div></div>
+        <svg class="deco spider" data-pulse viewBox="0 0 110 220"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M55 0V112M49 133 23 113 12 76M47 141 17 133 3 112M48 149 17 165 8 190M51 152 35 185 37 215M62 133 87 113 99 76M64 141 93 133 108 112M63 149 93 165 101 190M60 152 76 185 73 215"/></g><ellipse cx="55" cy="132" rx="10" ry="16" fill="currentColor"/><ellipse cx="55" cy="151" rx="7" ry="8" fill="currentColor"/></svg>
+        <span class="deco star star-one" data-pulse>✦</span>
+        <span class="deco star star-two" data-pulse>✦</span>
+        <span class="deco star star-three" data-pulse>✧</span>
+        <div class="red-seal">СТРАШНО?<br><span>ЭТО ТОЛЬКО НАЧАЛО</span></div>
+        <span class="side-note">COME AS YOU ARE. LEAVE AS SOMEONE ELSE.</span>
+      </div>
+
+      <section class="experience" aria-labelledby="question-title">
+        <div class="eyebrow"><span class="little-star">✦</span> НОЧЬ СТАНОВИТСЯ БЛИЖЕ <span class="little-star">✦</span></div>
+        <div class="progress" aria-label="Вопрос 1 из 2"><span class="progress-line"></span><span class="step active">I</span><span class="step">II</span><span class="progress-line"></span></div>
+        <div class="screen" id="screen">
+          <p class="chapter" id="chapter">ВОПРОС ПЕРВЫЙ</p>
+          <h1 id="question-title" tabindex="-1"><span>Вы боитесь</span><br><span>умереть в страшных</span><br><span class="red-text">муках???!!!!</span></h1>
+          <p class="question-note" id="question-note"></p>
+          <div class="answers" id="answers"><button class="answer answer-primary waiting" data-answer="yes" type="button" disabled>Да!!! <span aria-hidden="true">↗</span></button><button class="answer waiting" data-answer="no" type="button" disabled>Нет… <span aria-hidden="true">↗</span></button></div>
+          <p class="microcopy" id="microcopy">ВЫБЕРИ ОТВЕТ. ЕСЛИ ОСМЕЛИШЬСЯ.</p>
+        </div>
+        <button class="restart" type="button" hidden>↶ Начать сначала</button>
+      </section>
+      <div class="bottom-caption"><span class="caption-line"></span><span>НЕМНОГО СТРАХА. МНОГО ХОРОШЕЙ КОМПАНИИ.</span><span class="caption-line"></span></div>
+    </main>
+    <footer class="footer"><span>ОДНА НОЧЬ. СВОИ ЛЮДИ.</span><span class="footer-center">УВИДИМСЯ <span>ПО ТУ СТОРОНУ</span></span><span>HALLOWEEN EDITION <span aria-hidden="true">✦</span></span></footer>
+  </div>
+  <noscript><div class="noscript">Для вопросов включи JavaScript в браузере. Тебя ждут на Хеллоуине!</div></noscript>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# Иллюстрации и шрифты
+
+`assets/collage.png` создан встроенным image_gen для этого сайта. Изображение используется как прозрачный атлас 2 × 2; каждый объект анимируется отдельно через CSS, исходный файл не обрезан и не отредактирован.
+
+Промпт: “Use case: stylized-concept. Asset type: transparent illustration atlas for a gothic Halloween invitation website. Generate ONE square 2 by 2 sprite sheet with FOUR isolated antique engraved collage objects, each fully contained in its own equal quadrant with generous empty transparent gutters. Top left quadrant: an open screaming mouth with black lips and ivory teeth, elongated vertical oval, unsettling vintage cutout. Top right quadrant: full seated black cat facing the viewer, long curled tail, bright ivory eyes. Bottom left quadrant: antique silver three-arm candelabra with three tall dripping lit candles, full object. Bottom right quadrant: a single large bat flying with outspread wings. Style: Victorian copperplate engraving, highly detailed distressed halftone photocopy and aged paper cutout edges, sophisticated black and warm ivory monochrome. Mostly ivory hatching on dark objects so they remain visible on a near-black website background. All four objects separate and never touch, no extra objects, no cast shadows outside cutouts, no lettering, no words, no border, no watermark. Each object centered in its quadrant. True transparent background.”
+
+Шрифты Ruslan Display и Cormorant Garamond сохранены локально из Google Fonts. Лицензии OFL находятся рядом с файлами шрифтов в `assets/`.
